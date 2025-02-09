@@ -3,59 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.css" />
     <title>Amine Azouzi</title>
 </head>
 <body>
     <header>
-        <a name="amine"></a>
-        <audio controls autoplay loop>
-            <source src="/media/arabicdreams.mp3" type="audio/mpeg">
-        </audio>
-            <h1>Amine Azouzi</h1>
-        <nav>
-            <ul type="none">
-                <b><li> Home</li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li></b>
+        <nav class="menu-nav">
+            <h1 id="titre">Amine Azouzi</h1>
+            <ul id="men"type="none">
+                <li class="menu"><a href="index.html">Home</a></li>
+                <li class="menu"><a href="#about">About</a></li>
+                <li class="menu"><a href="#work">Work</a></li>
+                <li class="menu"><a href="#resume">Resume</a></li>
+                <li class="menu"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section>
+    
+    <section id="sct1">
+       <h2>A propos!</h2> 
         <a name="about"></a>
-        <h2>A propos!</h2>
-        <div><img src="/media/amine.png" alt="profil"></div>
-        
-        <p>Salut tout le monde!<br>Je m'appelle <i>Amine Azouzi</i> né le 31 Octobre 1977.<br>
-        Je Suis père de trois enfants. j'adore le monde informatique et le monde du sport.<br>
-    Je vous souhaite la bienvenue dans mon site et bonne navigation.</p>
+       <div id="aprp"> 
+            <img id="portrait"src="/media/amine.png" alt="profil">
+            <p id="p1">Salut tout le monde!<br>Je m'appelle <i>Amine Azouzi</i> né le 31 Octobre 1977.<br>
+                    Je Suis père de trois enfants. j'adore le monde informatique et le monde du sport.<br>
+                    Je vous souhaite la bienvenue dans mon site et bonne navigation.</p>
+        </div>
     </section>
-
     <section id="work">
         <h2>Mon travail:</h2>
-        <table border="1">
+        <table>
             <tr>
                 <th>Année</th>
                 <th>Poste Occupé</th>
-            </tr>
-            <tr>
+            </tr> 
+            <tr class="ligne">
                 <td>2018-Actuellement</td>
                 <td>Professeur principal émirite</td>
             </tr>
-            <tr>
+            <tr class="ligne">
                 <td>2016-2018</td>
                 <td>Professeur principal au-de là du rang</td>
             </tr>
-            <tr>
+            <tr class="ligne">
                 <td>2014-2016</td>
                 <td>Professeur principal</td>
             </tr>
-            <tr>
+            <tr class="ligne">
                 <td>2007-2014</td>
                 <td>professeur d'enseignement secondaire Tronc Commun</td>
             </tr>
-            <tr>
+            <tr class="ligne">
                 <td>2006-2007</td>
                 <td>Stage enseignant A1</td>
             </tr>
@@ -68,6 +67,7 @@
             suscipit porro est asperiores molestiae ut illum culpa quasi odio magni, 
             modi libero dolor soluta velit natus doloribus optio quo? Sint asperiores aspernatur sunt nihil impedit placeat vero pariatur voluptatum similique!
         </p>
+        
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, tenetur. 
             Nihil sapiente, quas tempora atque earum autem sit vero, 
             suscipit porro est asperiores molestiae ut illum culpa quasi odio magni, 
@@ -87,14 +87,18 @@
             <input type="text" placeholder="Nom">
             <input type="email" placeholder="E-mail">
             <textarea placeholder="Votre message ici ..."></textarea>
-            <input type="submit"></input>
+            <button type="button">Envoyer</button>
 
         </form>
     </section>
-    <footer> <div id="pf" name="fin de page">
-        <img src="/media/fin.gif" alt="message animé: ma première page web">
-    </div>
-        <h3><a href="#amine">Haut de la page!</a></h3>
+    <footer> 
+        <div id="trait"></div>
+        <div id="icons">
+            <a href="https://www.facebook.com/amine.azouzi.1"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/amineazouzi.tn/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/az_amine"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://github.com/azamine"><i class="fa-brands fa-github"></i></a>
+        </div>
     </footer>
     
 </body>

@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap');
+  
+  .tangerine-bold {
+    font-family: "Tangerine", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+body{
+    font-family: Roboto,sans-serif;
+    color:#021024;
+    background:linear-gradient(#c1e8ff,#052659);
+}
+*{
+    padding:0;
+    margin:0;
+}
+.menu a{
+    text-decoration: none;
+    color:#ffc300;
+    ;
+}
+.menu a:hover{
+    zoom:120%;
+    font-weight: bold;
+    /*transform:scale(1.5);
+    transition:0.1s;*/
+}
+ul{
+    padding-right:5px;
+}
+header{
+    height:55px;
+}
+.menu-nav{
+    position:fixed;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #1A2D42;
+    color:#ffc300;
+    opacity: 0.9;
+    
+}
+#sct1{
+    display: block;
+    margin-top:50px;
+}
+h1{
+    color:#ffc300;
+    width:100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    margin-left:15px;
+}
+#men{
+    display:flex;
+}
+.menu{
+    margin-left:30px;
+}
+
+
+#portrait{
+    width:300px;
+    border-radius:50%;
+}
+p:first-letter{
+    initial-letter:2;
+    color:#ffc300;
+
+}
+#p1{
+    width: 850px;
+    font-family:Tangerine;
+    font-weight: bold;
+    font-size:48px;
+    text-shadow: 4px 4px 4px #aaa;
+    margin-left: 70px;
+    margin-right:100px;
+    text-align: justify;
+
+}
+
+#aprp{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#work{
+    margin-top:50px;
+}
+table{
+    margin:auto;
+    margin-top:30px;
+    font-size: x-large;
+    width: 900px;
+    text-align: center;
+}
+
+td{
+    border-style:none;
+    
+}
+.ligne:nth-child(even)
+{
+    background:#ffc300;
+}
+.ligne:nth-child(odd)
+{
+    background: #ffa90a;
+}
+#resume{
+    margin-top: 20px;
+}
+#resume h2{
+    margin-bottom: 15px;
+}
+#resume p{
+    width:40%;
+    margin:30px auto;
+    
+    text-align: justify;
+    
+}
+#contact{
+    margin-top: 20px;
+}
+form{
+    max-width:900px;
+    margin:20px auto;
+    
+}
+input,textarea,button{
+    border:none;
+    width:55%;
+    padding:15px 10px;
+    margin:1px 0;
+    font-size: 1.2em;
+    font-family: Roboto;
+    border-radius:8px;
+}
+textarea{
+    height:125px;
+}
+button{
+    font-size: 1.5em;
+    background-color: #021024;
+    color:white;
+    margin-left: 8px;
+}
+button:hover{
+    background-color: #ffa90a;
+    color:#052659;
+    cursor:pointer;
+    transition:0.3s ease-in-out;
+}
+#trait{
+    height: 1px;
+    width: 75%;
+    background-color: #ffa90a;
+    margin:40px auto;
+}
+#icons{
+    margin-bottom: 20px;
+    padding: 0 10%;
+    text-align: center;
+}
+#icons a{
+    display:inline-block;
+    margin:0 15px;
+    font-size: 1.3em;
+    color:#c1e8ff
+}
+#icons a:hover{
+    transform:scale(1.5);
+    transition:0.1s;
+}
